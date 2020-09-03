@@ -1,0 +1,13 @@
+
+ ----jGRASP exec: javac -g item.java
+ ----   at: Dec 13, 2017 12:01:02 AM
+
+ ----jGRASP wedge: pid for wedge is 8172.
+ ----jGRASP wedge2: pid for wedge2 is 15212.
+ ----jGRASP wedge2: CLASSPATH is ";.;;;C:\Program Files (x86)\jGRASP\extensions\classes".
+ ----jGRASP wedge2: working directory is [C:\Users\shamm\Documents\CSC15] platform id is 2.
+ ----jGRASP wedge2: actual command sent ["C:\Program Files\Java\jdk1.8.0_144\bin\javac.exe" -g item.java].
+ ----jGRASP wedge2: pid for process is 16848.
+
+ ----jGRASP wedge2: exit code for process is 0.
+ ----jGRASP: operation complete.

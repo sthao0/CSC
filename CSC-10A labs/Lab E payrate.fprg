@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-03 07:10:32 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0wMzsgMDc6MDA6NTUgUE07IDIyODA="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0wMzsgMDc6MTA6MzIgUE07IDIyNzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="earned" type="Integer" array="False" size="" variables="earned"/>
+            <declare name="hours" type="Integer" array="False" size="" variables="hours"/>
+            <declare name="rate" type="Integer" array="False" size="" variables="rate"/>
+            <output expression="&quot;what is the employee's pay rate?&quot;"/>
+            <input variable="rate"/>
+            <output expression="&quot;how many hours did the employee worked?&quot;"/>
+            <input variable="hours"/>
+            <if expression="hours &gt; 40">
+                <then>
+                    <assign variable="earned" expression="40 * rate + (hours - 40) * rate * 1.5"/>
+                </then>
+                <else>
+                    <assign variable="earned" expression="hours * rate"/>
+                </else>
+            </if>
+            <output expression="&quot;the pay is &quot; &amp; &quot;$&quot; &amp; earned"/>
+        </body>
+    </function>
+</flowgorithm>

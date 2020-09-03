@@ -1,0 +1,13 @@
+
+ ----jGRASP exec: javac -g GroceryList.java
+ ----   at: Dec 13, 2017 12:02:04 AM
+
+ ----jGRASP wedge: pid for wedge is 22328.
+ ----jGRASP wedge2: pid for wedge2 is 10536.
+ ----jGRASP wedge2: CLASSPATH is ";.;;;C:\Program Files (x86)\jGRASP\extensions\classes".
+ ----jGRASP wedge2: working directory is [C:\Users\shamm\Documents\CSC15] platform id is 2.
+ ----jGRASP wedge2: actual command sent ["C:\Program Files\Java\jdk1.8.0_144\bin\javac.exe" -g GroceryList.java].
+ ----jGRASP wedge2: pid for process is 7056.
+
+ ----jGRASP wedge2: exit code for process is 0.
+ ----jGRASP: operation complete.

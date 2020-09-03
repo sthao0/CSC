@@ -1,0 +1,845 @@
+You are about to play price is right game.
+An item will be displayed on the secreen 
+The players will enter their bids, whoever has the closest bid to the actual price will win.
+
+
+
+Wait let me choose the players
+
+
+Here is the list of the players: 
+Joe  Nathan  Tom  Ryan  
+
+Item:        Eight pack Dove soap  
+Joe, enter your bid: 4
+Nathan, enter your bid: 5
+Tom, enter your bid: fdghgh
+Enter your bid :6
+Ryan, enter your bid: 7
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+                 Joe                 4.0
+              Nathan                 5.0
+                 Tom                 6.0
+                Ryan                 7.0
+The actual price of the item is : 7.0
+
+The winner is : Ryan
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:      wool jacket
+Joe, enter your bid: 44
+Nathan, enter your bid: 55
+Tom, enter your bid: 66
+Ryan, enter your bid: 77
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+                 Joe                44.0
+              Nathan                55.0
+                 Tom                66.0
+                Ryan                77.0
+The actual price of the item is : 125.0
+
+The winner is : Ryan
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:      IPhone
+Joe, enter your bid: 500
+Nathan, enter your bid: 600
+Tom, enter your bid: 700
+Ryan, enter your bid: 800
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+                 Joe               500.0
+              Nathan               600.0
+                 Tom               700.0
+                Ryan               800.0
+The actual price of the item is : 550.0
+
+The winner is : Joe
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Nathan
+Tom
+Ryan
+Here is the list of the players: Joe  Mary  Krisa  Josh  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:       computer mouse
+Joe, enter your bid: 34
+Mary, enter your bid: 23
+Krisa, enter your bid: 44
+Josh, enter your bid: 21
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+                 Joe                34.0
+                Mary                23.0
+               Krisa                44.0
+                Josh                21.0
+The actual price of the item is : 55.0
+
+The winner is : Krisa
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:     dimond ring
+Joe, enter your bid: 3000
+Mary, enter your bid: 3400
+Krisa, enter your bid: 5000
+Josh, enter your bid: 7000
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+                 Joe              3000.0
+                Mary              3400.0
+               Krisa              5000.0
+                Josh              7000.0
+The actual price of the item is : 3000.0
+
+The winner is : Joe
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Mary
+Krisa
+Josh
+Here is the list of the players: Joe  Morrisa  Jill  Victor   
+
+Do you want to keep playing: yes
+
+
+
+
+Item:        raisn bran cerial
+Joe, enter your bid: 3
+Morrisa, enter your bid: 4
+Jill, enter your bid: 5
+Victor , enter your bid: 6
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+                 Joe                 3.0
+             Morrisa                 4.0
+                Jill                 5.0
+             Victor                  6.0
+The actual price of the item is : 4.0
+
+The winner is : Morrisa
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Jill
+Victor 
+Here is the list of the players: Joe  Morrisa  Jack  Mary  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:      microwave
+Joe, enter your bid: 50
+Morrisa, enter your bid: 70
+Jack, enter your bid: 80
+Mary, enter your bid: 90
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+                 Joe                50.0
+             Morrisa                70.0
+                Jack                80.0
+                Mary                90.0
+The actual price of the item is : 255.0
+
+The winner is : Mary
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:       lap top case
+Joe, enter your bid: 45
+Morrisa, enter your bid: 88
+Jack, enter your bid: 99
+Mary, enter your bid: 709
+Sorry all the bids are over the actual price
+No winner
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Joe
+Morrisa
+Jack
+Mary
+Here is the list of the players: Sarah  Alex  David  Lisa  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:       lap top case
+Sarah, enter your bid: 60
+Alex, enter your bid: 50
+David, enter your bid: 40
+Lisa, enter your bid: 30
+Sorry all the bids are over the actual price
+No winner
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Sarah
+Alex
+David
+Lisa
+Here is the list of the players: Veronica  Mavis   Scott  Nick  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:       lap top case
+Veronica, enter your bid: 30
+Mavis , enter your bid: 20
+Scott, enter your bid: 35
+Nick, enter your bid: 43
+
+
+
+
+
+
+
+                Name                 Bid 
+-------------------------------
+
+            Veronica                30.0
+              Mavis                 20.0
+               Scott                35.0
+                Nick                43.0
+The actual price of the item is : 27.0
+
+The winner is : Mavis 
+There are no contestant left. The game just ended
+Sorry not enough player to continue. I have to get new players
+Would you like to play all over again? 
+ ----jGRASP: process ended by user.
+
+ ----jGRASP exec: java PriceIsRight2
+You are about to play price is right game.
+An item will be displayed on the secreen 
+The players will enter their bids, whoever has the closest bid to the actual price will win.
+
+
+
+Wait let me choose the players
+
+
+Here is the list of the players: 
+Ryan  Tom  David  Jack  
+
+Item:        raisn bran cerial
+Ryan, enter your bid: 
+ ----jGRASP: process ended by user.
+
+ ----jGRASP exec: java PriceIsRight2
+You are about to play price is right game.
+An item will be displayed on the secreen 
+The players will enter their bids, whoever has the closest bid to the actual price will win.
+
+
+
+Wait let me choose the players
+
+
+Here is the list of the players: 
+David  Jack  Nathan  Joe  
+
+Item:       non stick pan
+David, enter your bid: 23
+Jack, enter your bid: 24
+Nathan, enter your bid: 25
+Joe, enter your bid: 26
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+     David      23.0
+      Jack      24.0
+    Nathan      25.0
+       Joe      26.0
+The actual price of the item is : 34.0
+
+The winner is : Joe
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:      keyBoard
+David, enter your bid: 34
+Jack, enter your bid: 56
+Nathan, enter your bid: 45
+Joe, enter your bid: 37
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+     David      34.0
+      Jack      56.0
+    Nathan      45.0
+       Joe      37.0
+The actual price of the item is : 105.0
+
+The winner is : Jack
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:        cough syrup
+David, enter your bid: 3
+Jack, enter your bid: 4
+Nathan, enter your bid: 5
+Joe, enter your bid: 6
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+     David       3.0
+      Jack       4.0
+    Nathan       5.0
+       Joe       6.0
+The actual price of the item is : 8.0
+
+The winner is : Joe
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:     dimond ring
+David, enter your bid: 3000
+Jack, enter your bid: 200
+Nathan, enter your bid: 6000
+Joe, enter your bid: 1300
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+     David    3000.0
+      Jack     200.0
+    Nathan    6000.0
+       Joe    1300.0
+The actual price of the item is : 3000.0
+
+The winner is : David
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Nathan
+Here is the list of the players: David  Jack  Mavis   Joe  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:        Eight pack Dove soap  
+David, enter your bid: 3
+Jack, enter your bid: 56
+Mavis , enter your bid: 4
+Joe, enter your bid: 8
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+     David       3.0
+      Jack      56.0
+    Mavis        4.0
+       Joe       8.0
+The actual price of the item is : 7.0
+
+The winner is : Mavis 
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Jack
+Joe
+Here is the list of the players: David  Nick  Mavis   Lisa  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:        raisn bran cerial
+David, enter your bid: 4
+Nick, enter your bid: 7
+Mavis , enter your bid: 8
+Lisa, enter your bid: 9
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+     David       4.0
+      Nick       7.0
+    Mavis        8.0
+      Lisa       9.0
+The actual price of the item is : 4.0
+
+The winner is : David
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Nick
+Mavis 
+Lisa
+Here is the list of the players: David  Morrisa  Victor   Ryan  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:      IPhone
+David, enter your bid: 500
+Morrisa, enter your bid: 600
+Victor , enter your bid: 450
+Ryan, enter your bid: 700
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+     David     500.0
+   Morrisa     600.0
+   Victor      450.0
+      Ryan     700.0
+The actual price of the item is : 550.0
+
+The winner is : David
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Morrisa
+Ryan
+Here is the list of the players: David  Mary  Victor   Jill  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:       lap top case
+David, enter your bid: 100
+Mary, enter your bid: 200
+Victor , enter your bid: 300
+Jill, enter your bid: 400
+Sorry all the bids are over the actual price
+No winner
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+David
+Mary
+Victor 
+Jill
+Here is the list of the players: Tom  Scott  Josh  Veronica  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:       lap top case
+Tom, enter your bid: 56
+Scott, enter your bid: 33
+Josh, enter your bid: 44
+Veronica, enter your bid: 22
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+       Tom      56.0
+     Scott      33.0
+      Josh      44.0
+  Veronica      22.0
+The actual price of the item is : 27.0
+
+The winner is : Veronica
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Tom
+Scott
+Josh
+Here is the list of the players: Mary  Krisa  Sarah  Veronica  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:      leather chair
+Mary, enter your bid: 200
+Krisa, enter your bid: 100
+Sarah, enter your bid: 230
+Veronica, enter your bid: 400
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+      Mary     200.0
+     Krisa     100.0
+     Sarah     230.0
+  Veronica     400.0
+The actual price of the item is : 230.0
+
+The winner is : Sarah
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Veronica
+Here is the list of the players: Mary  Krisa  Sarah  Alex  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:      wool jacket
+Mary, enter your bid: 150
+Krisa, enter your bid: 45
+Sarah, enter your bid: 77
+Alex, enter your bid: 88
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+      Mary     150.0
+     Krisa      45.0
+     Sarah      77.0
+      Alex      88.0
+The actual price of the item is : 125.0
+
+The winner is : Alex
+There are no contestant left. The game just ended
+Sorry not enough player to continue. I have to get new players
+Would you like to play all over again? yes
+You are about to play price is right game.
+An item will be displayed on the secreen 
+The players will enter their bids, whoever has the closest bid to the actual price will win.
+
+
+
+Wait let me choose the players
+
+
+Here is the list of the players: 
+Ryan  Joe  Mary  Mary  
+
+Item:       computer mouse
+Ryan, enter your bid: 34
+Joe, enter your bid: 55
+Mary, enter your bid: 23
+Mary, enter your bid: 12
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+      Ryan      34.0
+       Joe      55.0
+      Mary      23.0
+      Mary      12.0
+The actual price of the item is : 55.0
+
+The winner is : Joe
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:     dimond ring
+Ryan, enter your bid: 3000
+Joe, enter your bid: 4500
+Mary, enter your bid: 3400
+Mary, enter your bid: 1234
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+      Ryan    3000.0
+       Joe    4500.0
+      Mary    3400.0
+      Mary    1234.0
+The actual price of the item is : 3000.0
+
+The winner is : Ryan
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Joe
+Mary
+Here is the list of the players: Ryan  Victor   Nathan  Mary  
+
+Do you want to keep playing: no
+
+
+Would you like to play all over again? yes
+You are about to play price is right game.
+An item will be displayed on the secreen 
+The players will enter their bids, whoever has the closest bid to the actual price will win.
+
+
+
+Wait let me choose the players
+
+
+Here is the list of the players: 
+Jill  Joe  Tom  Ryan  
+
+Item:      IPhone
+Jill, enter your bid: 300
+Joe, enter your bid: 400
+Tom, enter your bid: 500
+Ryan, enter your bid: dfsdf
+Enter your bid :345
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+      Jill     300.0
+       Joe     400.0
+       Tom     500.0
+      Ryan     345.0
+The actual price of the item is : 550.0
+
+The winner is : Tom
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: yes
+
+
+
+
+Item:       computer mouse
+Jill, enter your bid: 23 
+Joe, enter your bid: 45
+Tom, enter your bid: 56
+Ryan, enter your bid: 67
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+      Jill      23.0
+       Joe      45.0
+       Tom      56.0
+      Ryan      67.0
+The actual price of the item is : 55.0
+
+The winner is : Joe
+Some of the bids were over the actual price!!!!
+Wait, I am replacing the following players
+Tom
+Ryan
+Here is the list of the players: Jill  Joe  Morrisa  Krisa  
+
+Do you want to keep playing: yes
+
+
+
+
+Item:        cough syrup
+Jill, enter your bid: 3
+Joe, enter your bid: 4
+Morrisa, enter your bid: 5
+Krisa, enter your bid: 6
+
+
+
+
+
+
+
+      Name       Bid 
+-------------------------------
+
+      Jill       3.0
+       Joe       4.0
+   Morrisa       5.0
+     Krisa       6.0
+The actual price of the item is : 8.0
+
+The winner is : Krisa
+All of the bids were below the actual price
+Same players will play again
+
+Do you want to keep playing: no
+
+
+Would you like to play all over again? no
+
+ ----jGRASP: operation complete.

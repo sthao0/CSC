@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="shammah thao"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-11-08 07:13:29 PM"/>
+        <attribute name="created" value="S2lhbmEgVmFuZzsgREVTS1RPUC1NT1VGRDJSOyAyMDE2LTExLTA3OyAwMTozNjowMiBQTTsgMzM3Ng=="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMS0wODsgMDc6MTM6MjkgUE07IDIyOTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="howMany" type="Integer" array="False" size="" variables="howMany"/>
+            <input variable="howMany"/>
+            <declare name="numbers" type="Real" array="True" size="howMany" variables="numbers[howMany]"/>
+            <declare name="largest" type="Real" array="False" size="" variables="largest"/>
+            <declare name="i" type="Integer" array="False" size="" variables="i"/>
+            <input variable="numbers[0]"/>
+            <assign variable="largest" expression="numbers[0]"/>
+            <for variable="i" start="1" end="howMany - 1" direction="inc" step="1">
+                <input variable="numbers[i]"/>
+                <if expression="numbers[i] &gt; Largest">
+                    <then>
+                        <assign variable="largest" expression="numbers[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Largest is &quot; &amp; largest"/>
+            <for variable="i" start="0" end="howMany - 1" direction="inc" step="1">
+                <output expression="Largest - numbers[i]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

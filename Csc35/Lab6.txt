@@ -1,0 +1,62 @@
+.data
+a:
+        .ascii "Welcome to Silly Sentences!\n\0"
+b:
+        .ascii "Player A, enter a noun: \0"
+c:
+        .ascii "\nPlayer B, enter a verb: \0"
+d:
+        .ascii "\nPlayer A, enter a preposition: \0"
+e:
+        .ascii "\nPlayer B, enter a noun: \0"
+f:
+        .ascii "\nYour sentence is: \n\0"
+
+.text
+.global _start
+_start:
+
+        mov $a, %rcx
+        call PrintCString
+
+        mov $b, %rcx
+        call PrintCString
+        .space 30
+        call ScanCString
+        mov %rcx, %r8
+        call ClearScreen
+
+        mov $c,%rcx
+        call PrintCString
+        .space 30
+        call ScanCString
+        mov %rcx, %r9
+        call ClearScreen
+
+        mov $d, %rcx
+        call PrintCString
+        .space 30
+        call ScanCString
+        mov %rcx, %r10
+        call ClearScreen
+
+        mov $e, %rcx
+        call PrintCString
+        .space 30
+        call ScanCString
+        mov %rcx, %r11
+        call ClearScreen
+
+        mov $f, %rcx
+        call PrintCString
+        mov %r8, %rcx
+        call PrintCString
+        mov %r9, %rcx
+        call PrintCString
+        mov %r10, %rcx
+        call PrintCString
+        mov %r11, %rcx
+        call PrintCString
+
+
+call EndProgram

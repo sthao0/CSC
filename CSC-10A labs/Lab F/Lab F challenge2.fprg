@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-10 08:29:58 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xMDsgMDc6Mjc6MjkgUE07IDIyODg="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xMDsgMDg6Mjk6NTggUE07IDIyOTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="package" type="Integer" array="False" size="" variables="package"/>
+            <output expression="&quot;how many package did you purchase?&quot;"/>
+            <input variable="package"/>
+            <if expression="package &gt;= 10 and package &lt;= 19">
+                <then>
+                    <output expression="&quot;20% discount&quot;"/>
+                </then>
+                <else>
+                    <if expression="package &gt;= 20 and package &lt;= 49">
+                        <then>
+                            <output expression="&quot;30% discount&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="package &gt;= 30 and package &lt;= 90">
+                                <then>
+                                    <output expression="&quot;40% discount&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="100 &lt;= package">
+                                        <then>
+                                            <output expression="&quot;50% discount&quot;"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;no discount&quot;"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

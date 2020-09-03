@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="shammah thao"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-11-08 07:13:43 PM"/>
+        <attribute name="created" value="S2lhbmEgVmFuZzsgREVTS1RPUC1NT1VGRDJSOyAyMDE2LTExLTA3OyAwMToyOToyMCBQTTsgMzM3OA=="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMS0wODsgMDc6MTM6NDMgUE07IDIyODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="list1" type="Integer" array="False" size="" variables="list1"/>
+            <declare name="list2" type="Integer" array="False" size="" variables="list2"/>
+            <declare name="list3" type="Integer" array="False" size="" variables="list3"/>
+            <declare name="list4" type="Integer" array="False" size="" variables="list4"/>
+            <declare name="list5" type="Integer" array="False" size="" variables="list5"/>
+            <input variable="list1"/>
+            <input variable="list2"/>
+            <input variable="list3"/>
+            <input variable="list4"/>
+            <input variable="list5"/>
+            <output expression="list5"/>
+            <output expression="list4"/>
+            <output expression="list3"/>
+            <output expression="list2"/>
+            <output expression="list1"/>
+        </body>
+    </function>
+</flowgorithm>

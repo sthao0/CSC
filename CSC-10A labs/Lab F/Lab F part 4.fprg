@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-10 06:55:22 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xMDsgMDY6NTM6MDkgUE07IDIyODQ="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xMDsgMDY6NTU6MjIgUE07IDIyODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="score" type="Integer" array="False" size="" variables="score"/>
+            <input variable="score"/>
+            <if expression="score &lt; 0 or score &gt; 100">
+                <then>
+                    <output expression="&quot;not valid&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;valid score&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="thaos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-11-16 04:30:17 PM"/>
+        <attribute name="created" value="dGhhb3M7IFRIT1JJTjsgMjAxNi0xMS0xNjsgMDM6NTg6MTUgUE07IDIzOTE="/>
+        <attribute name="edited" value="dGhhb3M7IFRIT1JJTjsgMjAxNi0xMS0xNjsgMDQ6MzA6MTcgUE07IDIzODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="exam1" type="Real" array="False" size="" variables="exam1"/>
+            <declare name="exam2" type="Real" array="False" size="" variables="exam2"/>
+            <declare name="finalexam" type="Real" array="False" size="" variables="finalexam"/>
+            <declare name="index" type="Integer" array="False" size="" variables="index"/>
+            <declare name="total" type="Real" array="False" size="" variables="total"/>
+            <declare name="searchID" type="Integer" array="False" size="" variables="searchID"/>
+            <output expression="&quot;total?&quot;"/>
+            <input variable="total"/>
+            <declare name="studentID" type="Integer" array="True" size="total" variables="studentID[total]"/>
+            <declare name="grade" type="Real" array="True" size="total" variables="grade[total]"/>
+            <declare name="found" type="Boolean" array="False" size="" variables="found"/>
+            <for variable="index" start="0" end="total - 1&#13;&#10;" direction="inc" step="1">
+                <output expression="&quot;student ID is?&quot;"/>
+                <input variable="studentID[index]"/>
+                <output expression="&quot;what is exam1?&quot;"/>
+                <input variable="exam1"/>
+                <output expression="&quot;what is exam2?&quot;"/>
+                <input variable="exam2"/>
+                <output expression="&quot;what is finalexam?&quot;"/>
+                <input variable="finalexam"/>
+                <assign variable="grade[index]" expression="(exam1 + exam2 + finalexam) / 3"/>
+                <output expression="grade[index]"/>
+            </for>
+            <for variable="index" start="0" end="total - 1" direction="inc" step="1">
+                <output expression="studentID[index] &amp; &quot; : &quot; &amp; grade[index]"/>
+            </for>
+            <output expression="&quot;searchID?&quot;"/>
+            <input variable="searchID"/>
+            <assign variable="found" expression="False"/>
+            <assign variable="index" expression="0"/>
+            <while expression="(index &lt;= total - 1) and (NOT found)">
+                <if expression="studentID[index] = searchID">
+                    <then>
+                        <assign variable="found" expression="True"/>
+                        <output expression="grade[index]"/>
+                    </then>
+                    <else>
+                        <assign variable="index" expression="index + 1"/>
+                    </else>
+                </if>
+            </while>
+            <if expression="found = false">
+                <then>
+                    <output expression="&quot;nothing&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;its found&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

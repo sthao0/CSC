@@ -1,0 +1,14 @@
+ ----jGRASP exec: java Hw3
+ ----   at: Nov 16, 2017 11:52:26 PM
+
+ ----jGRASP wedge: pid for wedge is 2592.
+ ----jGRASP wedge2: pid for wedge2 is 13548.
+ ----jGRASP wedge2: CLASSPATH is ";.;;;C:\Program Files (x86)\jGRASP\extensions\classes".
+ ----jGRASP wedge2: working directory is [C:\Users\shamm\Documents\CSC15\src] platform id is 2.
+ ----jGRASP wedge2: actual command sent ["C:\Program Files\Java\jdk1.8.0_144\bin\java.exe" Hw3].
+ ----jGRASP wedge2: pid for process is 9480.
+ GarthBrendonBrendonCatheryn
+ 20 Lamp650 computer100 Ipod1000 IPhone1652 Laptop350 dining table1250 Sofa50 Textbook20 backpack1 notebook60 vase40 flowers25 blanket18740 Honda Civic32 picture frame1200 Television36 Earphone89 Apple tree1 water bottle123 Shoes null
+
+ ----jGRASP wedge2: exit code for process is 0.
+ ----jGRASP: operation complete.

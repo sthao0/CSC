@@ -1,0 +1,20 @@
+20 Lamp
+650 computer
+100 Ipod
+1000 IPhone
+1652 Laptop
+350 dining table
+1250 Sofa
+50 Textbook
+20 backpack
+1 notebook
+60 vase
+40 flowers
+25 blanket
+18740 Honda Civic
+32 picture frame
+1200 Television
+36 Earphone
+89 Apple tree
+1 water bottle
+123 Shoes

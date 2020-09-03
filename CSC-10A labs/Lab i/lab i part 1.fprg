@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Shammah"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-11-02 04:18:02 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0zMTsgMDQ6MjQ6MjYgUE07IDIyODI="/>
+        <attribute name="edited" value="dGhhb3M7IFRIRU9ERU47IDIwMTYtMTEtMDI7IDA0OjE4OjAyIFBNOyAyNDMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="again" type="String" array="False" size="" variables="again"/>
+            <declare name="grandchoco" type="Real" array="False" size="" variables="grandchoco"/>
+            <declare name="grandcaramel" type="Real" array="False" size="" variables="grandcaramel"/>
+            <declare name="candy" type="Real" array="False" size="" variables="candy"/>
+            <declare name="choco" type="Real" array="False" size="" variables="choco"/>
+            <declare name="totalchoco" type="Real" array="False" size="" variables="totalchoco"/>
+            <declare name="totalcaramel" type="Real" array="False" size="" variables="totalcaramel"/>
+            <declare name="caramel" type="Real" array="False" size="" variables="caramel"/>
+            <declare name="diameter1" type="Real" array="False" size="" variables="diameter1"/>
+            <declare name="diameter2" type="Real" array="False" size="" variables="diameter2"/>
+            <assign variable="grandchoco" expression="0"/>
+            <assign variable="grandcaramel" expression="0"/>
+            <do expression="again = &quot;yes&quot;">
+                <output expression="&quot;how many candy are there?&quot;"/>
+                <input variable="candy"/>
+                <output expression="&quot;what is the diameter of whole candy?&quot;"/>
+                <input variable="diameter1"/>
+                <output expression="&quot;what is the diameter of the caramel center?&quot;"/>
+                <input variable="diameter2"/>
+                <assign variable="choco" expression="shell(diameter1, diameter2)"/>
+                <assign variable="caramel" expression="sphere(diameter2)"/>
+                <assign variable="totalchoco" expression="choco * candy"/>
+                <assign variable="totalcaramel" expression="caramel * candy"/>
+                <assign variable="grandchoco" expression="grandchoco + totalchoco"/>
+                <assign variable="grandcaramel" expression="grandcaramel + totalcaramel"/>
+                <output expression="&quot;there are &quot; &amp; totalchoco &amp; &quot; total choco and &quot; &amp; totalcaramel &amp; &quot; total caramel.&quot;"/>
+                <output expression="&quot;there are &quot; &amp; grandchoco &amp; &quot; grandchoco and &quot; &amp; grandcaramel &amp; &quot; grandcaramel.&quot;"/>
+                <output expression="&quot;please enter yes to continue and enter no to end.&quot;"/>
+                <input variable="again"/>
+            </do>
+            <output expression="&quot;the grand amount is &quot; &amp; grandchoco &amp; &quot; and &quot; &amp; grandcaramel"/>
+        </body>
+    </function>
+    <function name="CompositionExample" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="Sum(2, Sum(2,2))"/>
+            <output expression="Sum(2,Sum(2,Sum(2,Sum(2,2))))"/>
+        </body>
+    </function>
+    <function name="shell" type="Real" variable="shell">
+        <parameters>
+            <parameter name="totaldiameter" type="Real" array="False"/>
+            <parameter name="diameter" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="shell" type="Real" array="False" size="" variables="shell"/>
+            <assign variable="shell" expression="sphere(totaldiameter) - sphere(diameter)"/>
+        </body>
+    </function>
+    <function name="sphere" type="Real" variable="volume">
+        <parameters>
+            <parameter name="diameter" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="volume" type="Real" array="False" size="" variables="volume"/>
+            <assign variable="volume" expression="(4/3) * pi * (diameter/2)^3"/>
+        </body>
+    </function>
+    <function name="sum" type="Integer" variable="result">
+        <parameters>
+            <parameter name="num1" type="Integer" array="False"/>
+            <parameter name="num2" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="Integer" array="False" size="" variables="result"/>
+            <assign variable="result" expression="num1 + num2"/>
+        </body>
+    </function>
+</flowgorithm>

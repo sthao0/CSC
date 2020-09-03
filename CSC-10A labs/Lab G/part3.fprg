@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-18 07:14:48 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xODsgMDc6MDg6NDEgUE07IDIyODk="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xODsgMDc6MTQ6NDggUE07IDIyOTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="count" type="Integer" array="False" size="" variables="count"/>
+            <for variable="count" start="1" end="100" direction="inc" step="1">
+                <output expression="count"/>
+            </for>
+            <output expression="&quot;Loop Finished&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

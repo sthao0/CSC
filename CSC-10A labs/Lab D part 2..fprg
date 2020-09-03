@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-09-26 06:03:47 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0wOS0yNjsgMDU6MjM6MjkgUE07IDIyOTc="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0wOS0yNjsgMDY6MDM6NDcgUE07IDIyOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <call expression="welcome"/>
+            <output expression="&quot;Please enter two numbers.&quot;"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <call expression="product(a, b)"/>
+            <call expression="add(a, b)"/>
+            <call expression="subtract(a, b)"/>
+            <call expression="divide(a, b)"/>
+        </body>
+    </function>
+    <function name="add" type="None" variable="">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="x &amp; &quot; + &quot; &amp; y &amp; &quot; = &quot; &amp; (x+y)"/>
+        </body>
+    </function>
+    <function name="divide" type="None" variable="">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="x &amp; &quot; / &quot; &amp; y &amp; &quot; = &quot; &amp; (x/y)"/>
+        </body>
+    </function>
+    <function name="product" type="None" variable="">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="x &amp; &quot; * &quot; &amp; y &amp; &quot; = &quot; &amp; (x * y)"/>
+        </body>
+    </function>
+    <function name="subtract" type="None" variable="">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="x &amp; &quot; - &quot; &amp; y &amp; &quot; = &quot; &amp; (x-y)"/>
+        </body>
+    </function>
+    <function name="welcome" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Welcome to the multiplier.&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

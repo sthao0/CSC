@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="thaos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-11-30 03:57:34 PM"/>
+        <attribute name="created" value="dGhhb3M7IExFR09MQVM7IDIwMTYtMTEtMzA7IDAzOjAxOjI3IFBNOyAyNDI5"/>
+        <attribute name="edited" value="dGhhb3M7IExFR09MQVM7IDIwMTYtMTEtMzA7IDAzOjU3OjM0IFBNOyAyNDM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="total" type="Integer" array="False" size="" variables="total"/>
+            <output expression="&quot;how many employees total?&quot;"/>
+            <input variable="total"/>
+            <declare name="temp1" type="String" array="False" size="" variables="temp1"/>
+            <declare name="found" type="Integer" array="False" size="" variables="found"/>
+            <declare name="middle" type="Integer" array="False" size="" variables="middle"/>
+            <declare name="low" type="Integer" array="False" size="" variables="low"/>
+            <declare name="high" type="Integer" array="False" size="" variables="high"/>
+            <declare name="searchID" type="Integer" array="False" size="" variables="searchID"/>
+            <declare name="name" type="String" array="True" size="total" variables="name[total]"/>
+            <declare name="temp" type="Integer" array="False" size="" variables="temp"/>
+            <declare name="inner" type="Integer" array="False" size="" variables="inner"/>
+            <declare name="outer" type="Integer" array="False" size="" variables="outer"/>
+            <declare name="index" type="Integer" array="False" size="" variables="index"/>
+            <declare name="min" type="Integer" array="False" size="" variables="min"/>
+            <declare name="ID" type="Integer" array="True" size="total" variables="ID[total]"/>
+            <for variable="index" start="0" end="total-1" direction="inc" step="1">
+                <output expression="&quot;ID?&quot;"/>
+                <input variable="ID[index]"/>
+                <output expression="&quot;Name?&quot;"/>
+                <input variable="name[index]"/>
+            </for>
+            <for variable="outer" start="0" end="total-2" direction="inc" step="1">
+                <assign variable="min" expression="outer"/>
+                <for variable="inner" start="outer+1" end="total-1" direction="inc" step="1">
+                    <if expression="ID[inner] &lt; ID[min]">
+                        <then>
+                            <assign variable="min" expression="inner"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <assign variable="temp" expression="ID[outer]"/>
+                    <assign variable="ID[outer]" expression="ID[min]"/>
+                    <assign variable="ID[min]" expression="temp"/>
+                    <assign variable="temp1" expression="name[outer]"/>
+                    <assign variable="name[outer]" expression="name[min]"/>
+                    <assign variable="name[min]" expression="temp1"/>
+                </for>
+            </for>
+            <for variable="index" start="0" end="total-1" direction="inc" step="1">
+                <output expression="&quot;ID is &quot; &amp; ID[index] &amp; &quot; and their name is &quot; &amp;name[index]"/>
+            </for>
+            <output expression="&quot;search for who?&quot;"/>
+            <input variable="searchID"/>
+            <assign variable="low" expression="0"/>
+            <assign variable="high" expression="total - 1"/>
+            <assign variable="found" expression="0"/>
+            <while expression="found = 0 and low &lt;= high">
+                <assign variable="middle" expression="Int((Low + High) / 2)"/>
+                <if expression="searchID = ID[middle]">
+                    <then>
+                        <assign variable="found" expression="1"/>
+                        <assign variable="index" expression="middle"/>
+                    </then>
+                    <else>
+                        <if expression="searchID &gt; ID[middle]">
+                            <then>
+                                <assign variable="low" expression="middle + 1"/>
+                            </then>
+                            <else>
+                                <assign variable="high" expression="middle - 1"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <if expression="found = 1">
+                <then>
+                    <output expression="&quot;ID &quot; &amp; name[index] &amp; &quot; is at position &quot; &amp; index"/>
+                </then>
+                <else>
+                    <output expression="&quot;ID &quot; &amp; searchID &amp; &quot; is not found&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

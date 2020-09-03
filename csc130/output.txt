@@ -1,0 +1,13 @@
+Inorder Traversal
+1 2 4 5 6 9 
+PostOrder traversal
+9 6 5 4 2 1 
+PreOrder traversal
+1 2 4 5 6 9 
+Level Order traversal
+1 
+2 
+4 
+5 
+6 
+9 

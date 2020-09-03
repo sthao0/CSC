@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-10 07:27:21 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xMDsgMDc6MjA6MTcgUE07IDIyNzg="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xMDsgMDc6Mjc6MjEgUE07IDIyODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Integer" array="False" size="" variables="area"/>
+            <declare name="area2" type="Integer" array="False" size="" variables="area2"/>
+            <declare name="length" type="Integer" array="False" size="" variables="length"/>
+            <declare name="width" type="Integer" array="False" size="" variables="width"/>
+            <declare name="length2" type="Integer" array="False" size="" variables="length2"/>
+            <declare name="width2" type="Integer" array="False" size="" variables="width2"/>
+            <output expression="&quot;what is the length of the first retangle?&quot;"/>
+            <input variable="length"/>
+            <output expression="&quot;What is the width of the first retangle?&quot;"/>
+            <input variable="width"/>
+            <output expression="&quot;What is the Length of the second retangle?&quot;"/>
+            <input variable="length2"/>
+            <output expression="&quot;What is the width of the second retangle?&quot;"/>
+            <input variable="width2"/>
+            <assign variable="area" expression="length * width"/>
+            <assign variable="area2" expression="length2 * width2"/>
+            <if expression="area &gt; area2">
+                <then>
+                    <output expression="&quot;Area of the first retangle have the greater area&quot;"/>
+                </then>
+                <else>
+                    <if expression="area = area2">
+                        <then>
+                            <output expression="&quot;area of both retangle are the same&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Area of the second retangle have a higher area.&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

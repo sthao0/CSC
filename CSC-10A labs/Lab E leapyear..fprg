@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="thaos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-05 03:03:36 PM"/>
+        <attribute name="created" value="dGhhb3M7IFRIT1JJTjsgMjAxNi0xMC0wNTsgMDM6MDI6MTAgUE07IDIzNzI="/>
+        <attribute name="edited" value="dGhhb3M7IFRIT1JJTjsgMjAxNi0xMC0wNTsgMDM6MDM6MzYgUE07IDIzODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size="" variables="number"/>
+            <output expression="&quot;Enter a year&quot;"/>
+            <input variable="number"/>
+            <if expression="(number mod 4) = 0">
+                <then>
+                    <output expression="&quot;Is a leapyear&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;is not a leap year.&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

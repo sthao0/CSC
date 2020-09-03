@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-18 07:08:39 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xODsgMDY6NTc6MTEgUE07IDIyODk="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0xODsgMDc6MDg6MzkgUE07IDIyOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter" type="Integer" array="False" size="" variables="counter"/>
+            <assign variable="counter" expression="10"/>
+            <do expression="counter &lt;= 5">
+                <output expression="counter"/>
+                <assign variable="counter" expression="counter + 1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

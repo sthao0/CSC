@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-09-26 05:23:17 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0wOS0yNjsgMDQ6NDE6MzggUE07IDIyOTY="/>
+        <attribute name="edited" value="U29uZzsgU09ORy1QQzsgMjAxNi0wOS0yNjsgMDU6MjM6MTcgUE07IDIyOTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size="" variables="x"/>
+            <declare name="y" type="Integer" array="False" size="" variables="y"/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <call expression="sumTwo(x, y)"/>
+        </body>
+    </function>
+    <function name="sumTwo" type="None" variable="">
+        <parameters>
+            <parameter name="num1" type="Integer" array="False"/>
+            <parameter name="num2" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sum" type="Integer" array="False" size="" variables="sum"/>
+            <assign variable="sum" expression="num1 + num2"/>
+            <output expression="sum"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-10-26 03:09:33 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0xMC0yNTsgMDY6MDA6MjIgUE07IDIyNzc="/>
+        <attribute name="edited" value="dGhhb3M7IExFR09MQVM7IDIwMTYtMTAtMjY7IDAzOjA5OjMzIFBNOyAyNDM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size="" variables="n"/>
+            <declare name="attempts" type="Integer" array="False" size="" variables="attempts"/>
+            <declare name="total" type="Integer" array="False" size="" variables="total"/>
+            <declare name="value" type="Integer" array="False" size="" variables="value"/>
+            <declare name="average" type="Real" array="False" size="" variables="average"/>
+            <declare name="tdancer" type="Integer" array="False" size="" variables="tdancer"/>
+            <declare name="cdancer" type="Integer" array="False" size="" variables="cdancer"/>
+            <output expression="&quot;how many total number of dancer?&quot;"/>
+            <input variable="tdancer"/>
+            <for variable="cdancer" start="1" end="tdancer" direction="inc" step="1">
+                <output expression="&quot;dancer # &quot; &amp; cdancer"/>
+                <output expression="&quot;how much does it attempts?&quot;"/>
+                <input variable="attempts"/>
+                <if expression="attempts &gt; 0">
+                    <then>
+                        <assign variable="total" expression="0"/>
+                        <for variable="n" start="1" end="attempts" direction="inc" step="1">
+                            <output expression="&quot;what is the value?&quot;"/>
+                            <input variable="value"/>
+                            <assign variable="total" expression="total + value"/>
+                            <output expression="&quot;the total is &quot; &amp; total"/>
+                        </for>
+                        <assign variable="average" expression="total/2"/>
+                        <output expression="&quot;Average is &quot; &amp; average"/>
+                        <if expression="average &gt;= 70">
+                            <then>
+                                <output expression="&quot;qualified&quot;"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;not qualified&quot;"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <output expression="&quot;no attempt.&quot;"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;no dancer&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

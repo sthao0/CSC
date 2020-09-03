@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Song"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-09-21 03:33:33 PM"/>
+        <attribute name="created" value="U29uZzsgU09ORy1QQzsgMjAxNi0wOS0xOTsgMDQ6MDY6MTggUE07IDIyOTc="/>
+        <attribute name="edited" value="dGhhb3M7IFRIT1JJTjsgMjAxNi0wOS0yMTsgMDM6MzM6MzMgUE07IDIzODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="minion1" type="Real" array="False" size="" variables="minion1"/>
+            <declare name="minion2" type="Real" array="False" size="" variables="minion2"/>
+            <declare name="height" type="Real" array="False" size="" variables="height"/>
+            <declare name="tube" type="Real" array="False" size="" variables="tube"/>
+            <declare name="sphere" type="Real" array="False" size="" variables="sphere"/>
+            <declare name="circle" type="Real" array="False" size="" variables="circle"/>
+            <declare name="diameter" type="Real" array="False" size="" variables="diameter"/>
+            <declare name="radius" type="Real" array="False" size="" variables="radius"/>
+            <output expression="&quot;What is the diameter?&quot;"/>
+            <input variable="diameter"/>
+            <output expression="&quot;What is the height?&quot;"/>
+            <input variable="height"/>
+            <assign variable="radius" expression="diameter / 2"/>
+            <assign variable="circle" expression="pi * radius^2"/>
+            <assign variable="sphere" expression="4 * pi * radius^2"/>
+            <assign variable="tube" expression="2 * pi * radius * height"/>
+            <assign variable="minion1" expression="(pi*radius^2)+(1/2*(4*pi*radius*height))+(2*pi*radius*height)"/>
+            <assign variable="minion2" expression="1/2 * sphere + tube + circle"/>
+            <output expression="&quot;The Radius is &quot; &amp; radius"/>
+            <output expression="&quot;The circle is &quot; &amp; circle"/>
+            <output expression="&quot;The sphere is &quot; &amp; sphere"/>
+            <output expression="&quot;The tube is &quot; &amp; tube"/>
+            <output expression="&quot;The minion1 is &quot; &amp; minion1"/>
+            <output expression="&quot;The minion2 is &quot; &amp; minion2"/>
+        </body>
+    </function>
+</flowgorithm>
