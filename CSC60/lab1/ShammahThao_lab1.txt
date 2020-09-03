@@ -1,0 +1,16 @@
+Script started on Thu 05 Sep 2019 11:02:24 AM PDT
+[thaos@athena:21]> gcc lab1.c
+[thaos@athena:22]> a.out
+
+Lab 1.
+
+Hello World.
+Hi, my name is Shammah Thao.
+
+I did a lot of great things in the past,
+but I live for today and for the future.
+- Vinnie Paul
+[thaos@athena:23]> exit
+exit
+
+Script done on Thu 05 Sep 2019 11:02:41 AM PDT

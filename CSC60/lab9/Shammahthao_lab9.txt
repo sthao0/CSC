@@ -1,0 +1,21 @@
+Script started on Mon 18 Nov 2019 09:23:57 AM PST
+[thaos@sp1:21]> gcc lab9.c -Wall
+[thaos@sp1:22]> a.out
+csc60msh> 
+csc60msh>  
+csc60msh> pwd
+/gaia/class/student/thaos/csc60/lab9
+csc60msh> cd ..
+csc60msh> pwd
+/gaia/class/student/thaos/csc60
+csc60msh> cd lab9
+csc60msh> pwd
+/gaia/class/student/thaos/csc60/lab9
+csc60msh> cd
+csc60msh> pwd
+/gaia/class/student/thaos
+csc60msh> exit
+[thaos@sp1:23]> exit
+exit
+
+Script done on Mon 18 Nov 2019 09:25:00 AM PST

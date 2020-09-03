@@ -1,0 +1,26 @@
+Script started on Wed 23 Oct 2019 02:53:40 PM PDT
+[thaos@athena:21]> touch lab5.h
+[thaos@athena:22]> make
+gcc -c  lab5.c
+gcc -c  compute.c 
+gcc lab5.o compute.o  -o lab5 -lm
+[thaos@athena:23]> lab5
+[thaos@athena:24]> cat lab5.out
+cat: lab5.out: No such file or directory
+[thaos@athena:25]> cat lab5.o
+
+Shammah Thao.  Lab 5. 
+
+ Radius	    Area     Circumference  
+--------  --------  --------------- 
+   3.70     43.01        23.25  
+   6.80    145.27        42.73  
+   4.00     50.27        25.13  
+   5.60     98.52        35.19  
+  12.70    506.71        79.80  
+  45.60   6532.50       286.51  
+
+[thaos@athena:26]> exit
+exit
+
+Script done on Wed 23 Oct 2019 02:54:07 PM PDT
